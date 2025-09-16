@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+    float: left;
+    width: 100%;
+    /* height: 100px; */
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+.sSearch {
+    width: 50%;
+    float: left;
+    margin-left: 2%;
+}
+
+.sLogin {
+    width: 48%;
+    float: right;
+    text-align: right;
+    padding-right: 2%;
+}
+
+/* h1{
+    text-align: center;
+    float: left;
+    width: 96%;
+    margin: 0 2%;
+    font-size: 100px;
+    border-top: 2px solid lightgrey;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 48px;
+} */
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    clear: both;
+    width: 96%;
+    margin: 0 2%;
+    border-top: 2px solid lightgrey;
+    height: 80px;
+}
+
+.title img {
+    width: 30%;
+    margin: auto;
+    padding: auto;
+}
+
+.lang {
+    width: 100%;
+    float: left;
+}
+
+.lang nav li {
+    width: fit-content;
+    text-align: center;
+    float: left;
+    border: 2px solid lightgrey;
+    border-bottom: none;
+    border-radius: 10%;
+    padding: 5px;
+    font-size: 8px;
+}
+
+.today {
+    width: 96%;
+    margin: 0 2%;
+    padding: 15px 0;
+    float: left;
+    display: inline;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.today li {
+    padding: 0 15px;
+    font-size: 12px;
+}
+
+.topics {
+    width: 96%;
+    margin: 0 2%;
+    float: left;
+    display: inline;
+    text-align: center;
+    border-bottom: 2px solid lightgrey;
+}
+
+.topics li {
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+main {
+    height: 800px;
+    width: 96%;
+    margin: 0 2%;
+    padding: 1% 0;
+    clear: both;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    height: 800px;
+    padding-right: 2%;
+    line-height: 1.5rem;
+}
+
+.fourtyFive h2 {
+    font-size: 1.2rem;
+}
+
+.fourtyFive div {
+    border-top: 2px solid grey;
+    width: 75%;
+}
+
+.fourtyFive h3 {
+    font-size: 2rem;
+    font-style: italic;
+    padding: 6% 0;
+    line-height: 2.2rem;
+}
+
+.fourtyFive ul {
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+}
+
+.fourtyFive li {
+    list-style: disc;
+    padding: 2% 0 2% 0%;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+.confirm h3 {
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 4%;
+}
+
+.confirm h2 {
+    font-style: italic;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+.confirm p {
+    font-size: 1.15rem;
+}
+
+.confirm .matt {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.middle {
+    float: left;
+    width: 40%;
+    height: 800px;
+    padding-right: 5px;
+    border-right: 1px solid lightgrey;
+}
+
+/* .imgbg {
+    background-image: url('nyt-trump.jpg');
+} */
+
+.imgbg img {
+    width: 98%;
+}
+
+.damon {
+    text-align: right;
+    font-size: 13px;
+    color: grey;
+    padding-right: 12px;
+}
+
+.winter {
+    font-size: 1.3rem;
+    padding: 1% 2% 3% 0;
+}
+
+.middle h2 {
+    font-size: 1.7rem;
+    padding-bottom: 1%;
+}
+
+.middleTwo,
+.gulf {
+    line-height: 1.6rem;
+}
+
+.vet {
+    font-size: 1.3rem;
+}
+
+.middle ul {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.greyLine {
+    padding: 1% 0;
+    border-top: 1px solid lightgrey;
+    width: 60%;
+    margin: 2% 20% 1% 20%;
+}
+
+.cede h3,
+.gulf h3 {
+    font-size: 1.3rem;
+}
+
+.cedecede {
+    display: flex;
+    line-height: 1.5rem;
+}
+
+.susan,
+.matthew,
+.julie {
+    color: grey;
+}
+
+.eric {
+    font-size: 1.2rem;
+}
+
+.time {
+    color: red;
+}
+
+.comment {
+    color: darkblue;
+}
+
+.cedeL li {
+    list-style: disc;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-bottom: 3%;
+}
+
+.cedeL li span {
+    font-weight: 200;
+}
+
+.cedeRP {
+    border: 1px solid grey;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+/* .gulf {
+    font-size: 1.3rem;
+} */
+
+.right {
+    float: left;
+    width: 40%;
+    height: 800px;
+}
+
+.lTop {
+    width: 100%;
+    float: left;
+    line-height: 1.5rem;
+}
+
+.opinion {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 35px;
+}
+
+.opinion h4 {
+    font-size: 1.3rem;
+    padding: 2% 0;
+}
+
+.lRight {
+    width: 50%;
+    float: left;
+    border-right: 1px solid grey;
+    padding-left: 3%;
+}
+
+.lRight ul, .lLeft ul{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.lRight li, .lLeft li{
+    list-style: disc;
+    padding: 2% 0 2% 0%;
+    margin-left: 20px;
+}
+    
+
+.lLeft {
+    width: 50%;
+    float: left;
+    padding-left: 3%
+}
+
+.doubleLine {
+    margin: 2%;
+    height: 5px;
+    width: 96%;
+    border-top: 2px solid grey;
+    border-bottom: 1px solid grey;
+    float: left
+}
+
+.mid {
+    float: left;
+    width: 96%;
+    margin: 0 2% 2% 2%;
+}
+
+.mid h2 {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.insider {
+    width: 50%;
+    float: left;
+    border-right: 1px solid grey;
+}
+
+.crossword {
+    width: 50%;
+    float: left;
+    padding-left: 3%;
+}
+
+.crossword img {
+    float: right;
+}
+
+.low {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: 2%;
+    clear: both;
+}
+
+.hyo, .pro{
+    display: flex;
+    line-height: 1.5rem;
+}
+.hyo span, .pro span, .pro img, .hyo img {
+    flex: 1;
+}
+
+.hyo p, .pro p{
+    flex: 4;
+}
+
+.hour{
+    color:grey;
+    margin-right: -10%;
+}
+
+.hyo{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 3% 0;
+}
+
+.pro{
+    padding: 3% 0;
+}
+
+@media (max-width: 1250px) {
+    .topics{
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .confirm{
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .pro{
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .left, .right{
+        display: none;
+    }
+    .middle{
+        width: 100%;
+    }
+}
