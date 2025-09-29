@@ -1,4 +1,4 @@
-# NewYorkTimes
+# The New York Times
 
 A static web clone / styled recreation of a New York Times article layout.  
 This project replicates the visual style and structure of the NYT for learning, design, or portfolio purposes.
@@ -15,13 +15,6 @@ This project replicates the visual style and structure of the NYT for learning, 
 
 This project is a front‑end recreation of a New York Times style web layout.  
 It demonstrates skills in HTML and CSS by replicating article structure, typography, spacing, and design details.
-
----
-
-## Live Demo
-
-Check it out live here:  
-➡️ [angelbelroth.github.io/NewYorkTimes/nyt/nyt.html](https://angelbelroth.github.io/NewYorkTimes/nyt/nyt.html)
 
 ---
 
