@@ -3,23 +3,11 @@
 A static web clone / styled recreation of a New York Times article layout.  
 This project replicates the visual style and structure of the NYT for learning, design, or portfolio purposes.
 
-[Live Demo](https://angelbelroth.github.io/NewYorkTimes/nyt/nyt.html)
+[Live Demo](https://angelbelroth.github.io/web-NewYorkTimes/nyt/nyt.html)
 
 ---
 
-## Table of Contents
-
-- [About](#about)  
-- [Live Demo](#live-demo)  
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-- [Customization](#customization)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
+<img width="2048" height="1140" alt="D7334E85-4AFF-4453-8629-DF95905532D6" src="https://github.com/user-attachments/assets/10297224-f474-4df9-ab60-01712e8b7916" />
 
 ---
 
